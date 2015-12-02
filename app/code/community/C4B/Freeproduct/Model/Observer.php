@@ -174,6 +174,8 @@ class C4B_Freeproduct_Model_Observer
                 ->setTaxPercent(0)
                 ->setDiscountAmount(0)
                 ->setDiscountPercent(0)
+                ->setBaseDiscountAmount(0)
+                ->setRowWeight(0)
                 ->setIsFreeProduct(true)
                 ->setWeeeTaxApplied('a:0:{}') // Set WeeTaxApplied Value by default so there are no "warnings" later on during invoice creation
                 ->setStoreId($storeId);
